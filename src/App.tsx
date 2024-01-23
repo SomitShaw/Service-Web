@@ -8,6 +8,7 @@ import CTA from "./Components/CTA.tsx";
 import Pricing from "./Components/Pricing.tsx";
 import TestmonialsOne from "./Components/TestmonialsOne.tsx";
 import TopBanner from "./Components/TopBanner.tsx";
+import Chatbot from "./Components/Chatbot.tsx";
 
 const App: React.FC = () => {
   return (
@@ -21,6 +22,7 @@ const App: React.FC = () => {
       <TestmonialsOne />
       <LogoClouds />
       <Footer />
+      <Chatbot />
     </div>
   );
 };
